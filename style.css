@@ -1,0 +1,26 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background: rgb(98, 197, 243);
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #19424d;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    flex-direction: column;
+}
+  .time, .date{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1rem;
+  }
